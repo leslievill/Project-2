@@ -27,7 +27,8 @@ fs
   })
   // for loop that will iterate through each item in the array.
   .forEach(function(file) {
-    var model = sequelize['import'](path.join(__dirname, file));
+    const model = require(path.join(__dirname, file))(sequelize, Sequelize.DataTypes)
+
     db[model.name] = model;
   });
 // creates an array of keys of the model objects and uses a for loop to go through each one.

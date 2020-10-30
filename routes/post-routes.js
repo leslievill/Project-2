@@ -56,3 +56,4 @@ module.exports = function (app) {
                 res.json(data);
             });
     });
+}

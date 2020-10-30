@@ -1,0 +1,228 @@
+body {
+    background-image: url("../assets/background.png");
+    width: 100%;
+    font-family: 'Russo One', sans-serif;
+  }
+
+    .logo {
+    width:350px;
+    margin-bottom:60px;
+  }
+  
+  /*Navbar Styles*/
+  .nav-item {
+    color: #6513c2!important;
+    font-weight: bold;
+    text-align: left;
+    }
+    .nav-item:hover {
+    color: #D7FBF6!important;
+    }
+    .navbar-nav{
+    margin-left:1000px;
+    }
+    
+    .navbar-toggler{
+      color:#6513c2!important;
+    }
+    
+    .navbar {
+      margin-bottom: 80px;
+    }
+  
+  /*Book an activity styles*/
+  .category-buttons {
+  width: 400px;
+  border: none;
+  margin:0 auto;
+  }
+  img {
+  width: 50%;
+  }
+  .category-title {
+  color:#d7fbf6;
+  text-align: center;
+  font-weight: bold;
+  }
+  tr {
+  border-style: hidden;
+  }
+  
+  
+  .btn-primary {
+  background-color: #6513c2;
+  color:#d7fbf6;
+  border: none;
+  }
+  .btn-primary:hover {
+  background-color: #6513c2;
+  color:#0e0220;
+  border: none;
+  }
+  
+  
+  .activityDetails{
+    display:none;
+  }
+  
+  .add-details{
+  color:#d7fbf6;
+  font-weight: bold;
+  }
+  .img1:hover{
+    content: url("../assets/button-theatre-hover.png");
+  }
+  .img2:hover{
+    content: url("../assets/button-travel-hover.png");
+  }
+  .img3:hover{
+    content: url("../assets/button-outdoors-hover.png");
+  }
+  .img4:hover{
+    content: url("../assets/button-movies-hover.png");
+  }
+  .img5:hover{
+    content: url("../assets/button-bar-hover.png");
+  }
+  .img6:hover{
+    content: url("../assets/button-concerts-hover.png");
+  }
+  .img7:hover{
+    content: url("../assets/button-train-hover.png");
+  }
+  .img8:hover{
+    content: url("../assets/button-museum-hover.png");
+  }
+  .img9:hover{
+    content: url("../assets/button-others-hover.png");
+  }
+  
+  #detailsCol {
+    margin-bottom:50px;
+  }
+  
+  /*Styling for bucketlist html*/
+  h1{
+    color: #6513c2;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  h2{
+   color: #6513c2;
+   font-size: 18px;
+  }
+  h3{
+   color: #6513c2;
+   font-size: 18px;
+  }
+  .toDo{
+   background-color: #d7fbf6;
+   max-width: 3000px;
+   font-size: 16px;
+  }
+  p{
+    vertical-align: middle;
+  }
+  .bucketlistImg{
+    width: 15%
+  }
+  
+
+  
+   /*Sign Up Form Styles*/
+  
+  form {
+    width: 450px;
+    float:left;
+  }
+  
+  label {
+    color: #6513c2;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    background-color: #D7FBF6;
+    color:#0e0220;
+  }
+  
+  .signup-title{
+    font-weight: bold;
+    margin-left: 162px;
+    margin-bottom:30px;
+    color: #6513c2;
+  }
+  
+  .email {
+    color: #d7fbf6;
+  }
+  
+  .pwd {
+    color: #d7fbf6;
+  }
+  
+  .login-2 {
+    color: #6513c2;
+    margin-left: 162px;
+  }
+  
+  .submit {
+    margin: 20px 0 10px 182px;
+  }
+  
+  /*Bucket List Styles*/
+  
+  .details{
+   color: #6513c2;
+   font-weight: bold;
+  }
+  .details-catego{
+    color: #d7fbf6;
+    font-weight: bold;
+  }
+  
+  .details-title{
+    color: #6513c2;
+    font-weight: bold;
+  }
+  
+  .description{
+    color: #6513c2;
+  }
+  
+  .dateInfo {
+    color:#6513c2;
+    font-weight: bolder;
+  }
+  
+  .place {
+    color: #d7fbf6;
+  }
+  
+  .createdAt {
+    color: #6513c2;
+  }
+  
+  
+  
+  
+  .toDo{
+   background-color: #d7fbf6;
+   width: 400px;
+   margin-bottom:20px;
+   font-size: 16px;
+  }
+  .infoCard{
+    vertical-align: middle;
+  }
+  .bucketlistImg{
+    width: 15%
+  }
+  
+
+
+  .add{
+    margin-left:150px;
+  }
+ 
+  

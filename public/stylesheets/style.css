@@ -7,11 +7,13 @@ body {
     .logo {
     width:350px;
     margin-bottom:60px;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
   }
   
   /*Navbar Styles*/
   .nav-item {
-    color: #6513c2!important;
+    color: #f09a39!important;
     font-weight: bold;
     text-align: left;
     }

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/leslievill/Project-2#readme",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "axios": "^0.21.0",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",

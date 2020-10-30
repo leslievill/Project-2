@@ -25,7 +25,7 @@ module.exports = function (app) {
     });
 
     app.get("/bucketlist", async(req, res) => {
-        res.sendFile(path.join(__dirname, "../public/bucketlist.html"));
+        //res.sendFile(path.join(__dirname, "../public/bucketList.html"));
         db.Post.findAll({}).then(function(data) {
           console.log('All Posts: ', data)
           res.render("index", {data});

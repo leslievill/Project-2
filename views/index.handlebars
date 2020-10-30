@@ -43,9 +43,9 @@
         {{#each data}}
         <div class="col-lg-5 col-sm-12 activityDetails" data-ide={{this.dataValues.id}}>
             <p class="details-catego"> Category: {{this.dataValues.category}}</p>
-            <p class="details-title">{{this.dataValues.title}}</p>
-            <p class="description">{{this.dataValues.description}}</p>
-            <p class="dateInfo">{{this.dataValues.date}}</p>
+            <p class="details-title">Title: {{this.dataValues.title}}</p>
+            <p class="description">Description: {{this.dataValues.description}}</p>
+            <p class="dateInfo">Date: {{this.dataValues.date}}</p>
             <button type="button" class="btn btn-primary deleteBtn" data-id={{this.dataValues.id}}>Delete</button>
         </div>
         {{/each}}

@@ -19,8 +19,8 @@ module.exports = function (app) {
         }
         res.sendFile(path.join(__dirname, "../public/login.html"));
     });
-    app.get("/futureEndeavor", async(req, res) => {
-        res.sendFile(path.join(__dirname, "../public/futureEndeavor.html"));
+    app.get("/bucketlist", async(req, res) => {
+        res.sendFile(path.join(__dirname, "../public/bucketlist.html"));
         db.Post.findAll({}).then(function(data) {
           console.log('All Posts: ', data)
           res.render("index", {data});

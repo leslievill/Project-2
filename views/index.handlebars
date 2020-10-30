@@ -17,7 +17,7 @@
         <div class="col-sm">
         </div>
         <div class="col-sm">
-            <img class="logo" src="assets/quarantines-logo.png">
+            <img class="logo" src="assets/fe.png">
         </div>
         <div class="col-sm">
         </div>
@@ -44,11 +44,6 @@
             <p class="details-catego"> Category: {{this.dataValues.category}}</p>
             <p class="details-title">{{this.dataValues.title}}</p>
             <p class="description">{{this.dataValues.description}}</p>
-            <p class="dateInfo">{{this.dataValues.date}}</p>
-            <p class="place">{{this.dataValues.searched_place}}</p>
-            <p class="createdAt">Created At: {{this.dataValues.createdAt}}</p>
-            <button type="submit" class="btn btn-primary view-map" data-lat={{this.dataValues.latitude}}
-                data-lon={{this.dataValues.longitude}}>View Map</button>
             <button type="button" class="btn btn-primary deleteBtn" data-id={{this.dataValues.id}}>Delete</button>
         </div>
         {{/each}}
